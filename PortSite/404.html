@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ошибка... 404!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        line-height: 1.2;
+        margin: 0;
+      }
+
+      html {
+        color: #888;
+        display: table;
+        font-family: sans-serif;
+        height: 100%;
+        text-align: center;
+        width: 100%;
+      }
+
+      body {
+        display: table-cell;
+        vertical-align: middle;
+        margin: 0;
+      }
+
+      h1 {
+        color: #555;
+        font-size: 4em;
+        font-weight: 400;
+        text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      p {
+        margin: 30px 0;
+        padding: 20px;
+        width: 280px;
+        background-color: #888;
+        transition: ease-in 0.3s;
+      }
+
+      p:hover {
+        background-color: rgb(202, 202, 202);
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .error {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1::selection,
+      p::selection {
+        background-color: black;
+        color: white;
+      }
+
+      @media only screen and (max-width: 411px) {
+        body,
+        p {
+          width: 95%;
+        }
+
+        h1 {
+          font-size: 2em;
+          margin: 0 0 0.3em;
+        }
+      }
+      a {
+        color: rgb(153, 153, 153);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="error">
+      <h1>Ошибка 404!</h1>
+      <p>
+        Слышали о таком? Если закажите у меня сайт, то даже страница с ошибкой
+        будет кастомной)
+      </p>
+      <a href="index.html">На главную</a>
+    </div>
+  </body>
+</html>
+<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->
