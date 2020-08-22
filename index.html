@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
   <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Асилбек Исматуллаев</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -32,42 +32,68 @@
       </p>
     <![endif]-->
 
-    <div class="swiper-container">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-          <div class="header" id="particles-js">
-            <div class="header-title">
-              Я Асилбек!
-            </div>
-            <div class="header-sub">И я <span id="typed"></span></div>
-            <div class="header-sub">А это сайт обо мне...</div>
-            <script>
-              $("document").ready(function () {
-                var typed = new Typed("#typed", {
-                  strings: ["Первое слово", "Второе слово", "Третье слово"],
-                  backSpeed: 40,
-                  typeSpeed: 40,
-                  loop: true,
-                  cursorChar: '_'
+    <div class="wrapper">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide1">
+            <div class="header" id="particles-js">
+              <div class="header-title">
+                Я Асилбек!
+              </div>
+              <div class="header-sub">И я <span id="typed"></span></div>
+              <div class="header-sub">А это сайт обо мне...</div>
+              <script>
+                $("document").ready(function () {
+                  var typed = new Typed("#typed", {
+                    strings: [
+                      "фронтендер",
+                      "веб-разработчик",
+                      "верстальщик",
+                      "фрилансер",
+                    ],
+                    backSpeed: 40,
+                    typeSpeed: 40,
+                    loop: true,
+                    cursorChar: "_",
+                  });
                 });
-              });
-            </script>
+              </script>
+            </div>
           </div>
+          <div class="swiper-slide swiper-slide2">
+            <div class="title">Навыки, прокачанные мной</div>
+            <div class="skills">
+              <ul class="ul-slider">
+                <div class="sub">
+                  Главные
+                </div>
+                <li>HTML5 и CSS3</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>WordPress</li>
+              </ul>
+              <ul class="ul-slider">
+                <div class="sub">
+                  Второстепенные
+                </div>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>Tilda</li>
+                <li>Фреймворки и библиотеки</li>
+              </ul>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide3">
+            <div class="title">Портфолио</div>
+            <a href="portfolio.html"><img src="img/portfolio.svg" alt="photo"></a>
+          </div>
+          <div class="swiper-slide">Horizontal Slide 4</div>
         </div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        ...
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
-
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
     </div>
-
     <!-- <div class="1 content">
       <div>
         <img src="img/im.svg" alt="" />

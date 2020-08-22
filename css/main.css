@@ -289,9 +289,52 @@ textarea {
 .swiper-slide {
   background-color: rgb(221, 221, 221);
   font-size: 60px;
+  font-family: "Oswald", sans-serif;
+  border: 2px rgb(255, 255, 255) solid;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: #8800c6 0px 0px 30px;
+}
+
+.swiper-slide1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.swiper-slide2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper-slide3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper-slide3 img{
+  width: 500px;
+}
+
+.title{
+  margin-top: 20px;
+  color: #6e00a1;
+}
+
+.skills {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sub{
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #8800c6;
 }
 
 .swiper-button-next {
@@ -301,6 +344,10 @@ textarea {
   color: #6e00a1;
 }
 
-#typed{
+#typed {
   color: #6e00a1;
+}
+
+.ul-slider {
+  font-size: 40px;
 }
