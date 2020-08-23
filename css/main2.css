@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.site {
+  margin: 50px;
+  height: 450px;
+  width: 450px;
+  background-color: rgba(255, 255, 255, 0.301);
+  border: solid white 3px;
+  border-radius: 10%;
+  text-decoration: none;
+  transition: 0.5s ease;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-title {
+  font-family: "Oswald", sans-serif;
+  margin-top: 10px;
+  font-size: 22.5px;
+}
+
+.site-photo {
+  width: 70%;
+  border-radius: 10%;
+}
+
+.site-title:active {
+  color: white;
+  
+}
+
+.site:hover{
+    background-color: #fff;
+    box-shadow: #ffffff 0px 0px 30px;
+}
+
+@media only screen and (max-width: 35em) {
+  body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
