@@ -22,6 +22,7 @@ body {
 }
 
 .site-title {
+  color: #8800c6;
   font-family: "Oswald", sans-serif;
   margin-top: 10px;
   font-size: 22.5px;
@@ -34,7 +35,6 @@ body {
 
 .site-title:active {
   color: white;
-  
 }
 
 .site:hover{
@@ -47,5 +47,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .fancybox-toolbar{
+    width: 100px;
+  }
+
+  .fancybox-img{
+    width: 400px;
   }
 }
