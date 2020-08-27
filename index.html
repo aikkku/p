@@ -21,9 +21,19 @@
     <link rel="stylesheet" href="css/main.css" />
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <meta name="theme-color" content="#fafafa" />
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </head>
 
   <body id="particles-js">
+    <script>
+      swal({
+        title: "Информация от автора.",
+        text: "Этот сайт сделан в виде слайдера, потому что сейчас это модно!",
+        icon: "info",
+        button: "Хорошо!",
+      });
+    </script>
     <!--[if IE]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
@@ -37,9 +47,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-slide1">
             <div class="header" id="particles-js">
-              <div class="header-title">
-                Я Асилбек!
-              </div>
+              <div class="header-title">Я Асилбек!</div>
               <div class="header-sub">И я <span id="typed"></span></div>
               <div class="header-sub">А это сайт обо мне...</div>
               <script>
@@ -64,18 +72,14 @@
             <div class="title">Навыки, прокачанные мной</div>
             <div class="skills">
               <ul class="ul-slider">
-                <div class="sub">
-                  Главные
-                </div>
+                <div class="sub">Главные</div>
                 <li>HTML5 и CSS3</li>
                 <li>JavaScript</li>
                 <li>PHP</li>
                 <li>WordPress</li>
               </ul>
               <ul class="ul-slider">
-                <div class="sub">
-                  Второстепенные
-                </div>
+                <div class="sub">Второстепенные</div>
                 <li>Photoshop</li>
                 <li>Illustrator</li>
                 <li>Tilda</li>
@@ -93,21 +97,21 @@
             <div class="title">Процесс работы</div>
             <div class="process">
               <div class="process-card process-card1">
-                <img src="img/p1.png" alt="" />
+                <img class="img" src="img/p1.png" alt="" />
                 Обсуждение работы
               </div>
               <div class="process-card process-card2">
                 Разрабатывание сайта
-                <img src="img/p4.png" alt="" />
+                <img class="img" src="img/p4.png" alt="" />
               </div>
               <div class="process-card process-card1">
-                <img src="img/p3.png" alt="" />
+                <img class="img" src="img/p3.png" alt="" />
                 Выплата
               </div>
             </div>
           </div>
           <div class="swiper-slide swiper-slide5">
-            <img src="img/p2.png" alt="">
+            <img class="img" src="img/p2.png" alt="" />
             И все. Конец!
           </div>
         </div>
@@ -115,6 +119,14 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
       </div>
+     <div class="contact">
+       <div class="contact-title">Контакты</div>
+       <div class="contact-content"></div>
+     </div>
+    </div>
+    <div class="contact">
+      <div class="contact-title">Контакты</div>
+      <div class="contact-content"></div>
     </div>
     <!-- <div class="1 content">
       <div>
