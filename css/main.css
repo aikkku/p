@@ -363,6 +363,7 @@ textarea {
 
 .ul-slider {
   font-size: 40px;
+  margin-top: 10px;
 }
 
 .process-card {
@@ -462,4 +463,64 @@ textarea {
   flex-direction: column;
   align-items: stretch;
   justify-content: center;
+}
+
+@media only screen and (max-width: 52em) {
+  .swiper-container {
+    height: 320px;
+    width: 90%;
+  }
+
+  div{
+    font-size: x-large;
+  }
+
+  li{
+    font-size: 20px;
+  }
+
+  .sub{
+    font-size: 25px;
+  }
+
+  .title{
+    font-size: 30px;
+  }
+  .swiper-slide3 img {
+    width: 270px;
+}
+.process-card img {
+  width: 120px;
+}
+.swiper-slide5 img{
+  width: 300px;
+}
+}
+
+@media only screen and (max-width: 35em) {
+  .swiper-container {
+    height: 200px;
+    width: 90%;
+  }
+
+  div, li{
+    font-size: small;
+  }
+
+  .sub{
+    font-size: 20px;
+  }
+
+  .title{
+    font-size: 22px;
+  }
+  .swiper-slide3 img {
+    width: 160px;
+}
+.process-card img {
+  width: 70px;
+}
+.swiper-slide5 img{
+  width: 150px;
+}
 }
